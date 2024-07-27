@@ -16,48 +16,69 @@
     text-align: left;
     font-size: 3rem;
     color: black;
-    width: 60%;
+    width: 70%;
     margin: auto;
 }
 
 @media screen and (max-width: 2000px) and (min-width: 1400px) {
 
     .description-text{
-        font-family: "Baloo 2", cursive;
-        text-transform: uppercase;
-        font-weight: bold;
-        text-align: left;
         font-size: 2rem;
-        color: black;
-        width: 60%;
-        margin: auto;
     }
 }
 
 @media screen and (max-width: 1400px) and (min-width: 900px){
 
     .description-text{
-        font-family: "Baloo 2", cursive;
-        text-transform: uppercase;
-        font-weight: bold;
-        text-align: left;
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 1200px){
+
+    .description-text{
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 1050px){
+
+    .description-text{
         font-size: 1.5rem;
-        color: black;
-        width: 60%;
-        margin: auto;
     }
 }
 
 @media screen and (max-width: 900px){
 
     .description-text{
-        font-family: "Baloo 2", cursive;
-        text-transform: uppercase;
-        font-weight: bold;
-        text-align: left;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 700px){
+
+    .description-text{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 700px){
+
+    .description-text{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    .description-text{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    .description-text{
         font-size: 1rem;
-        color: black;
-        width: 60%;
-        margin: auto;
     }
 }
