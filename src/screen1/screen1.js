@@ -1,5 +1,4 @@
 import './screen1.css';
-import {Navbar} from '../navbar/navbar.js';
 import screen1 from '../assets/screen1.jpg';
 import { Sidebar } from '../sidebar/sidebar.js';
 import { useRef } from 'react';
