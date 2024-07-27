@@ -31,6 +31,17 @@
     display: grid;
 }
 
+@media screen and (max-height: 900px){
+    .screen4-right-container{
+        display: none;
+    }
+    
+    .screen4-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+
 @media screen and (max-width: 1696px) {
     .screen4-right-container{
         display: none;

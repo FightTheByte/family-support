@@ -97,23 +97,15 @@
     }
 
     .grand-hotel-regular {
-        font-family: "Grand Hotel", cursive;
-        font-weight: 400;
-        font-style: normal;
         font-size: 6rem;
     }
     
     .grand-hotel-small{
-        font-family: "Grand Hotel", cursive;
-        font-weight: 400;
-        font-style: normal;
         font-size: 3rem;
     }
     
     .grand-hotel-very-small{
-        font-family: "Grand Hotel", cursive;
-        font-weight: 400;
-        font-style: normal;
+  
         font-size: 3rem;
         display: flex;
         flex-direction: row;
