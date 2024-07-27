@@ -1,7 +1,7 @@
 .screen3-container{
     height: 100vh;
     width: 100vw;
-    background-color: rgb(189, 238, 219);
+    background-color: rgb(201, 252, 232);
     overflow: auto;
     border-bottom: 5px solid black;
     display: grid;
@@ -12,7 +12,6 @@
 
 .description-text{
     font-family: "Baloo 2", cursive;
-    text-transform: uppercase;
     font-weight: bold;
     text-align: left;
     font-size: 2.5rem;
