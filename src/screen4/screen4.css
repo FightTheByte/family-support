@@ -30,3 +30,43 @@
 .screen4-right-container{
     display: grid;
 }
+
+@media screen and (max-width: 1696px) {
+    .screen4-right-container{
+        display: none;
+    }
+    
+    .screen4-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .contact-us{
+        font-size: 2.5rem;
+    }
+    
+    .details{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .contact-us{
+        font-size: 2.2rem;
+    }
+    
+    .details{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .contact-us{
+        font-size: 2rem;
+    }
+    
+    .details{
+        font-size: 1rem;
+    }
+}
