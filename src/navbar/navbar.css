@@ -1,0 +1,27 @@
+.navbar{
+    width: 100%;
+    background-image: linear-gradient(rgb(71, 178, 255), white);
+    margin-top: 0rem;
+    overflow: auto;
+    height: 15rem;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    position: fixed;
+    top: 0rem;
+    z-index: 2;
+}
+
+
+.home-logo{
+    width: 15rem;
+    height: 15rem;
+    justify-self: center;
+    align-self: center;
+}
+
+.title{
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 5rem;
+    justify-self: center;
+    align-self: center;
+}   

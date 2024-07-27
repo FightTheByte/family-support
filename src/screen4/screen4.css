@@ -1,0 +1,32 @@
+.screen4-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00ffff;
+}
+
+.screen4-image{
+    width: 40vw;
+    height: 100vh;
+    justify-self: center;
+    align-self: center;
+}
+
+.contact-details{
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+}
+
+.contact-us{
+    font-size: 3rem;
+}
+
+.details{
+    font-size: 2rem;
+}
+
+.screen4-right-container{
+    display: grid;
+}

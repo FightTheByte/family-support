@@ -1,0 +1,309 @@
+.home-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 5px solid black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.home-right-screen1-image{
+    width: 40vw;
+    height: 100vh;
+    justify-self: center;
+    background-color: rgb(189, 238, 219);
+}
+
+.home-right-screen1{
+    width: 50vw;
+    height: 100vh;
+    background-color: rgb(189, 238, 219);
+    display: grid;
+}
+
+.home-left-screen1{
+    justify-self: center;
+    align-self: center;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    background-color: rgb(189, 238, 219);
+    width: 50vw;
+    height: 100vh
+}
+
+.home-welcome-text{
+    justify-self: center;
+    align-self: end;
+}
+
+.home-left-screen1-text{
+    background: radial-gradient(circle, #00ffff, #e7f6f6);
+    padding: 2rem;
+    border-radius: 2rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 0rem;
+    width: 60rem;
+    height: 30rem;
+    justify-self: center;
+    align-self: center;
+}
+
+.home-text-top{
+    margin: 0%;
+    justify-self: center;
+    align-self: center;
+}
+
+.home-text-bottom{
+    margin: 0%;
+    justify-self: center;
+    align-self: center;
+}
+
+.explanation-text{
+    align-self: center;
+    justify-self: center;
+    display: flexbox;
+    flex-direction: row;
+}
+
+.grand-hotel-regular {
+    font-family: "Grand Hotel", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7rem;
+}
+
+.grand-hotel-small{
+    font-family: "Grand Hotel", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+}
+
+.grand-hotel-very-small{
+    font-family: "Grand Hotel", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+@media screen and (max-height: 900px){
+    .home-right-screen1-image{
+        display: none;
+    }
+
+    .grand-hotel-regular {
+        font-family: "Grand Hotel", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 6rem;
+    }
+    
+    .grand-hotel-small{
+        font-family: "Grand Hotel", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3rem;
+    }
+    
+    .grand-hotel-very-small{
+        font-family: "Grand Hotel", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3rem;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .home-container{
+        display: grid;
+        border-bottom: 5px solid black;
+        width: 100vw;
+        align-items: center;
+    }
+
+    .home-left-screen1{
+        justify-self: center;
+        align-self: center;
+        display: grid;
+        grid-template-rows: 1fr 3fr 1fr;
+        background-color: rgb(189, 238, 219);
+        width: 100vw;
+        height: 100vh
+    }
+}
+
+@media screen and (max-width: 1696px) {
+    .home-right-screen1-image{
+        display: none;
+    }
+
+    .grand-hotel-regular {
+        font-family: "Grand Hotel", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 6rem;
+    }
+    
+    .grand-hotel-small{
+        font-family: "Grand Hotel", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3rem;
+    }
+    
+    .grand-hotel-very-small{
+        font-family: "Grand Hotel", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3rem;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .home-container{
+        display: grid;
+        border-bottom: 5px solid black;
+        width: 100vw;
+        align-items: center;
+    }
+
+    .home-left-screen1{
+        justify-self: center;
+        align-self: center;
+        display: grid;
+        grid-template-rows: 1fr 3fr 1fr;
+        background-color: rgb(189, 238, 219);
+        width: 100vw;
+        height: 100vh
+    }
+}
+
+@media screen and (max-width: 2482px) and (min-width: 1774px) {
+    .grand-hotel-regular {
+        font-size: 5rem;
+    }
+
+    .home-left-screen1-text{
+        padding: 2rem;
+        width: 50rem;
+        height: 20rem;
+       
+    }
+}
+
+@media screen and (max-width: 1774px) and (min-width: 1064px) {
+    .grand-hotel-regular {
+        font-size: 4rem;
+    }
+
+    .home-left-screen1-text{
+        padding: 2rem;
+        width: 40rem;
+        height: 15rem;
+       
+    }
+}
+
+@media screen and (max-width: 1064px) and (min-width: 710px){
+    .grand-hotel-regular {
+        font-size: 3rem;
+    }
+
+    .grand-hotel-small{
+        font-size: 2rem;
+    }
+    
+    .grand-hotel-very-small{
+        font-size: 2rem;
+    }
+
+    .home-left-screen1-text{
+        padding: 2rem;
+        width: 30rem;
+        height: 10rem;
+       
+    }
+}
+
+
+@media screen and (max-width: 710px) and (min-width: 531px){
+    .grand-hotel-regular {
+        font-size: 3rem;
+    }
+
+    .grand-hotel-small{
+        font-size: 2rem;
+    }
+    
+    .grand-hotel-very-small{
+        font-size: 2rem;
+    }
+
+    .home-left-screen1-text{
+        padding: 2rem;
+        width: 25rem;
+        height: 10rem;
+       
+    }
+}
+
+@media screen and (max-width: 531px) and (min-width: 355px){
+    .grand-hotel-regular {
+        font-size: 2rem;
+    }
+
+    .grand-hotel-small{
+        font-size: 1rem;
+    }
+    
+    .grand-hotel-very-small{
+        font-size: 1rem;
+    }
+
+    .home-left-screen1-text{
+        padding: 2rem;
+        width: 20rem;
+        height: 8rem;
+       
+    }
+}
+
+@media screen and (max-width: 427px){
+    
+
+    .grand-hotel-regular {
+        font-size: 1rem;
+    }
+
+    .grand-hotel-small{
+        font-size: 1rem;
+    }
+    
+    .grand-hotel-very-small{
+        font-size: 1rem;
+    }
+
+    .home-left-screen1-text{
+        padding: 2rem;
+        width: 8rem;
+        height: 5rem;
+       
+    }
+}
+
+
+
+
+
+
+
+
+
+

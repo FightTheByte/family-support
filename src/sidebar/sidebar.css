@@ -1,0 +1,142 @@
+.sidebar {
+    position: relative;
+}
+
+.menu-button-container {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 4rem;
+}
+
+.menu-button {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 2rem;
+    background-color: rgba(143, 207, 253, 0.552);
+    font-weight: bold;
+    font-size: 1.2rem;
+    justify-self: center;
+}
+
+.side-button-container {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 4rem; 
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0.5rem; 
+    pointer-events: auto;
+}
+
+.side-button {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 2rem;
+    background-color: rgba(143, 207, 253, 0.552);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.side-button:hover {
+    background-color: rgba(143, 207, 253, 0.997);
+    font-size: 1.4rem;
+}
+
+@media screen and (max-height: 900px){
+    .side-button-container {
+        top: 1rem;         
+    }
+
+    .menu-button-container {
+        top: 1rem;
+    }
+}
+
+@media screen and (max-width: 1696px) and (min-width: 580px){
+    .side-button-container {
+        position: fixed;
+        left: 99.5%;
+        transform: translateX(-99.5%);
+        top: 2rem; 
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 0.5rem; 
+        pointer-events: auto;
+    }
+
+    .menu-button-container {
+        position: fixed;
+        left: 99.5%;
+        transform: translateX(-99.5%);
+        top: 2rem;
+    }
+}
+
+@media screen and (max-width: 1450px){
+    .side-button {
+     
+        border-radius: 2rem;
+        background-color: rgba(143, 207, 253, 0.552);
+        font-weight: bold;
+        font-size: 0.8rem;
+    }
+
+    .menu-button {
+
+        border-radius: 2rem;
+        background-color: rgba(143, 207, 253, 0.552);
+        font-weight: bold;
+        font-size: 0.8rem;
+        justify-self: center;
+    }
+}
+
+
+@media screen and (max-width: 580px){
+    
+    .side-button-container {
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 1rem; 
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 0.5rem; 
+        pointer-events: auto;
+    }
+
+    .menu-button-container {
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 1rem;
+    }
+
+    .side-button {
+        width: 8rem;
+        height: 2rem;
+        border-radius: 2rem;
+        background-color: rgba(143, 207, 253, 0.552);
+        font-weight: bold;
+        font-size: 0.4rem;
+    }
+
+    .menu-button {
+        width: 8rem;
+        height: 2rem;
+        border-radius: 2rem;
+        background-color: rgba(143, 207, 253, 0.552);
+        font-weight: bold;
+        font-size: 0.4rem;
+        justify-self: center;
+    }
+
+    .side-button:hover {
+        background-color: rgba(143, 207, 253, 0.997);
+        font-size: 0.8rem;
+    }
+}
+
+
