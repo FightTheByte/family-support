@@ -1,12 +1,14 @@
 import './screen2.css';
-import screen2 from '../assets/screen2.png'
+import React from 'react';
 
-export function Screen2(){
-
+export const Screen2 = React.forwardRef((props, ref) => {
 
 
     return(
-        <div className="screen2-container"> 
+        <div 
+            className="screen2-container"
+            ref={ref}
+        > 
             <h2 className='grand-hotel-very-small-screen2'>Testimonials</h2>
             <div className="screen2-columns">
                 <div className='screen2-rows'>
@@ -62,4 +64,4 @@ export function Screen2(){
             </div>
         </div>
     )
-}
+})

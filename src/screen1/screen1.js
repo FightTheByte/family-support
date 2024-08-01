@@ -1,20 +1,16 @@
 import './screen1.css';
 import screen1 from '../assets/screen1.jpg';
-import { Sidebar } from '../sidebar/sidebar.js';
-import { useRef } from 'react';
+import React from 'react';
 
 
-export function Screen1(){
+export const Screen1 = React.forwardRef((props, ref) => {
 
-    const myRef = useRef(null);
-
-    function scrollTo() {
-        if(!myRef.current) return;
-        myRef.current.scrollIntoView({behavior: 'smooth'})
-    }
-    
+   
     return(
-        <div className='home-container'>
+        <div 
+            className='home-container'
+            ref={ref}
+        >
             <div className='home-left-screen1'>
                 <div className='home-welcome-text'>
                     <h1 className='grand-hotel-small'>Welcome To The</h1>
@@ -36,4 +32,4 @@ export function Screen1(){
             </div>
         </div>
     )
-}
+})

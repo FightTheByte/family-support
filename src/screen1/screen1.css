@@ -225,6 +225,8 @@
 }
 
 
+
+
 @media screen and (max-width: 710px) and (min-width: 531px){
     .grand-hotel-regular {
         font-size: 3rem;
@@ -293,6 +295,15 @@
     }
 }
 
+@media screen and (zoom: 500%){
+    .explanation-text{
+        display: none;
+    }
+
+    .home-welcome-text{
+        display: none;
+    }
+}
 
 
 

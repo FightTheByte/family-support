@@ -1,10 +1,14 @@
 import './screen3.css';
 import profile from '../assets/profile.png';
+import React from 'react';
 
-export function Screen3(){
+export const Screen3 = React.forwardRef((props, ref) => {
 
     return(
-        <div className="screen3-container">
+        <div 
+            className="screen3-container"
+            ref={ref}
+        >
             <img 
                 src={profile}
                 className='profile'
@@ -19,4 +23,4 @@ export function Screen3(){
             </p>
         </div>
     )
-}
+})

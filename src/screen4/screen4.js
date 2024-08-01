@@ -1,12 +1,14 @@
-import './screen4.css'
-import screen4 from '../assets/screen4.jpg'
+import './screen4.css';
+import screen4 from '../assets/screen4.jpg';
+import React from 'react';
 
-export function Screen4(){
-
-    
+export const Screen4 = React.forwardRef((props, ref) => {
 
     return (
-        <div className='screen4-container'>
+        <div 
+            className='screen4-container'
+            ref={ref}           
+        >
             <div className='contact-details'>
                 <h4 className='contact-us'>Contact Us</h4>
                 <h4 className='details'>Phone Number: <a href="tel:+4407754763950">07754763950</a></h4>
@@ -18,4 +20,4 @@ export function Screen4(){
             </div>            
         </div>
     )
-}
+})

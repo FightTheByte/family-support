@@ -1,0 +1,22 @@
+.screen5-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(201, 252, 232);
+    border-top: 5px solid black;
+    display: grid;
+}
+
+.meeting-grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    align-self: center;
+}
+
+.meeting-grid h2{
+    font-size: 5rem;
+}
+
+.meeting-grid p{
+    font-size: 3rem;
+}

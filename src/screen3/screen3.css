@@ -24,6 +24,7 @@
     width: 10rem;
     align-self: end;
     border-radius: 2rem;
+    margin-top: 1rem;
 }
 
 @media screen and (max-width: 2000px){

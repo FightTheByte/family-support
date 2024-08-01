@@ -1,7 +1,12 @@
 import './sidebar.css';
 import { useState } from 'react';
 
-export function Sidebar({ scrollTo }) {
+export function Sidebar({ 
+    scrollTo2,
+    scrollTo3,              
+    scrollTo4,
+    scrollTo5,
+}) {
     const [showDropdown, setDropdown] = useState(false);
     const [menu, setMenu] = useState(true);
 
@@ -46,10 +51,10 @@ export function Sidebar({ scrollTo }) {
                         showMenu()
                     }}
                 >
-                    <button onClick={scrollTo} className="side-button">About Us</button>
-                    <button onClick={scrollTo} className="side-button">Contact Us</button>
-                    <button onClick={scrollTo} className="side-button">Meetings</button>
-                    <button onClick={scrollTo} className="side-button">Testimonials</button>
+                    <button onClick={scrollTo3} className="side-button">About Us</button>
+                    <button onClick={scrollTo4} className="side-button">Contact Us</button>
+                    <button onClick={scrollTo5} className="side-button">Meetings</button>
+                    <button onClick={scrollTo2} className="side-button">Testimonials</button>
                 </div>
             )}
         </div>
