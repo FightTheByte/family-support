@@ -4,19 +4,27 @@
     background-color: rgb(201, 252, 232);
     border-top: 5px solid black;
     display: grid;
+    justify-items: center;
 }
 
 .meeting-grid{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     justify-items: center;
     align-self: center;
+    gap: 0rem;
 }
 
-.meeting-grid h2{
-    font-size: 5rem;
-}
+
 
 .meeting-grid p{
+    font-size: 2rem;
+}
+
+.meeting-location{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin-top: 10rem;
     font-size: 3rem;
 }
