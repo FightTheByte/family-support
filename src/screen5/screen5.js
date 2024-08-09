@@ -31,6 +31,7 @@ export const Screen5 = React.forwardRef((props, ref) => {
             className='screen5-container'
             ref={ref} 
         >   
+            <div></div>
             <div className='meeting-location'>
                 <h2>Meetings</h2>
                 {
