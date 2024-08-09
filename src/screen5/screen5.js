@@ -16,13 +16,13 @@ export const Screen5 = React.forwardRef((props, ref) => {
     const [meetings, setMeetings] = useState([
         {
             day: 'Monday',
-            time: '7-8pm',
-            place: 'location A'
+            time: '5:45-7:30pm',
+            place: "Wick in the PPP Centre,"
         },
         {
-            day: 'Friday',
-            time: '6-6:30pm',
-            place: 'location B'
+            day: 'Wednesday',
+            time: '2:00-3:30pm',
+            place: 'Thurso Fire Station,'
         }
     ]);
 
