@@ -32,20 +32,22 @@ export const Screen5 = React.forwardRef((props, ref) => {
             ref={ref} 
         >   
             <div></div>
-            <div className='meeting-location'>
-                <h2>Meetings</h2>
-                {
-                    meetings
-                    ?meetings.map((meeting, index) => 
-                        <div 
-                            className='meeting-grid'
-                            key={index}
-                        >
-                            <p>{meeting.day} at {meeting.place} from {meeting.time}</p>
-                        </div>
-                    )
-                    :null
-                }
+            <div className='meeting-details-container'>
+                <div className='meeting-location'>
+                    <h2>Meetings</h2>
+                    {
+                        meetings
+                        ?meetings.map((meeting, index) => 
+                            <div 
+                                className='meeting-grid'
+                                key={index}
+                            >
+                                <p>{meeting.day} at {meeting.place} from {meeting.time}</p>
+                            </div>
+                        )
+                        :null
+                    }
+                </div>
             </div>
         </div>
     )

@@ -19,11 +19,16 @@
     width: 100%;
 }
 
+.meeting-details-container{
+    background-color: rgba(0, 0, 0, 0.079);
+    border-radius: 2rem;
+    padding: 2rem;
+}
 
 
 .meeting-grid p{
     font-size: 2rem;
-    font-size: "Baloo 2", cursive;;
+    font-size: "Baloo 2", cursive;
 }
 
 .meeting-location{

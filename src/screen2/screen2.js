@@ -21,8 +21,8 @@ export const Screen2 = React.forwardRef((props, ref) => {
                     </div>
                         
                     <div className='bubble'>
-                        <p>"The Caithness Family Support Group has helped my mum find the strength to help me. They are a close and confidential group, and together they hand 
-                            the ability ti best help me. - K"                        
+                        <p>"The Caithness Family Support Group has helped my mum find the strength to help me. They are a close and confidential group, and together they had 
+                            the ability to best help me. - K"                        
                         </p>
                     </div>
                   
