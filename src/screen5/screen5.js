@@ -17,12 +17,12 @@ export const Screen5 = React.forwardRef((props, ref) => {
         {
             day: 'Monday',
             time: '5:45-7:30pm',
-            place: "Wick in the PPP Centre,"
+            place: "Wick in the PPP Centre"
         },
         {
             day: 'Wednesday',
             time: '2:00-3:30pm',
-            place: 'Thurso Fire Station,'
+            place: 'Thurso Fire Station'
         }
     ]);
 
@@ -42,7 +42,8 @@ export const Screen5 = React.forwardRef((props, ref) => {
                                 className='meeting-grid'
                                 key={index}
                             >
-                                <p>{meeting.day} at {meeting.place} from {meeting.time}</p>
+                                <p>{meeting.day} at {meeting.place}</p>
+                                <p>{meeting.time}</p>
                             </div>
                         )
                         :null
