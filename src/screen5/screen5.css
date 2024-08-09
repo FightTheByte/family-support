@@ -10,8 +10,7 @@
 }
 
 .meeting-grid{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+    display: flexbox;
     justify-items: center;
     align-self: center;
     gap: 0rem;
@@ -24,7 +23,7 @@
     background-color: rgba(0, 0, 0, 0.079);
     border-radius: 2rem;
     padding: 2rem;
-    width: 80%;
+    width: 60%;
 }
 
 
