@@ -46,11 +46,11 @@
 
 @media screen and (max-width: 640px){
     .meeting-grid p{
-        font-size: 1rem;
+        font-size: 0.5rem;
     }
 
     .meeting-location{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
 }

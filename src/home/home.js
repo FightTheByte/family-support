@@ -5,6 +5,7 @@ import { Screen3 } from '../screen3/screen3';
 import { Screen4 } from '../screen4/screen4';
 import { Screen5 } from '../screen5/screen5';
 import { Sidebar } from '../sidebar/sidebar';
+import { isMobile } from 'react-device-detect';
 import { useRef } from 'react';
 
 
@@ -28,12 +29,16 @@ export function Home(){
             <Screen3 ref={ref3}/>
             <Screen4 ref={ref4}/>
             <Screen5 ref={ref5}/>
-            <Sidebar
-              scrollTo2={() => scrollTo(ref2)}
-              scrollTo3={() => scrollTo(ref3)}
-              scrollTo4={() => scrollTo(ref4)}
-              scrollTo5={() => scrollTo(ref5)}
-            />
+            {
+                isMobile
+                ?null
+                :<Sidebar
+                  scrollTo2={() => scrollTo(ref2)}
+                  scrollTo3={() => scrollTo(ref3)}
+                  scrollTo4={() => scrollTo(ref4)}
+                  scrollTo5={() => scrollTo(ref5)}
+                />
+            }
         </div>
     )
 }
