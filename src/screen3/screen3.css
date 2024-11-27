@@ -7,50 +7,55 @@
     display: grid;
     justify-items: center;
     border-top: 5px solid black;
-    display: grid;
-    grid-template-rows: 1fr 3fr;
+    grid-template-rows: 0.5fr 2fr;
 }
 
 .description-text{
     font-family: "Baloo 2", cursive;
     font-weight: bold;
     text-align: left;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: black;
     width: 70%;
     margin: auto;
     align-self: start;
+    padding-bottom: 2rem;
 }
 
 .profile{
-    width: 10rem;
+    width: 400px;
     border-radius: 2rem;
-    margin-top: 1rem;
-    align-self: center;
+    display: grid;
+    margin-top: 0rem;
+    
 }
+
+
 
 @media screen and (max-width: 2000px){
 
     .description-text{
-        font-size: 2.1rem;
+        font-size: 2.2rem;
+        margin-top: 4rem;
+    }
+
+    .profile{
+        display: none;
     }
 }
 
 @media screen and (max-width: 1400px){
 
     .description-text{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
-    .profile{
-        width: 7rem;
-    }
 }
 
 @media screen and (max-width: 1200px){
 
     .description-text{
-        font-size: 1.6rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -60,9 +65,6 @@
         font-size: 1.5rem;
     }
 
-    .profile{
-        width: 5rem;
-    }
 }
 
 @media screen and (max-width: 900px){
@@ -71,9 +73,7 @@
         font-size: 1.5rem;
     }
 
-    .profile{
-        width: 4rem;
-    }
+
 }
 
 @media screen and (max-width: 700px){
